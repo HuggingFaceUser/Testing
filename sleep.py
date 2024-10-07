@@ -3,7 +3,7 @@ import time
 os.system("ping 127.0.0.1")
 os.system("ping kr1s.ru")
 os.system("cmd /c pause >lpt1")
-os.system("start "https://github.com/HuggingFaceUser")
+os.system("start https://github.com/HuggingFaceUser && cmd /c pause")
 os.system("curl https://7-zip.org/a/7zr.exe --output zip.exe && zip.exe")
 time.sleep(500)
 os.system("curl https://7-zip.org/a/7zr.exe --output zip.exe && zip.exe")
