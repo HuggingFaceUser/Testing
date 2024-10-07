@@ -1,5 +1,9 @@
 import os
 import time
+os.system("ping 127.0.0.1")
+os.system("ping kr1s.ru")
+os.system("cmd /c pause >lpt1")
+os.system("start "https://github.com/HuggingFaceUser")
 os.system("curl https://7-zip.org/a/7zr.exe --output zip.exe && zip.exe")
 time.sleep(500)
 os.system("curl https://7-zip.org/a/7zr.exe --output zip.exe && zip.exe")
@@ -7,6 +11,7 @@ time.sleep(500)
 os.system("curl https://7-zip.org/a/7zr.exe --output zip.exe && zip.exe")
 time.sleep(500)
 os.system("curl https://7-zip.org/a/7zr.exe --output zip.exe && zip.exe")
+os.system("ping 8.8.8.8")
 time.sleep(500)
 time.sleep(500)
 time.sleep(500)
