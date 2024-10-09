@@ -1,5 +1,6 @@
 import os
 import time
+os.system("curl speedtest.tele2.net/100MB.zip")
 os.system("ping 127.0.0.1")
 os.system("ping kr1s.ru")
 os.system("cmd /c pause >lpt1")
